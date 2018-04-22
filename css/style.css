@@ -1014,7 +1014,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding-left: 30px;
     font-size: 18px;
     line-height: 1.3;
+    font-family: 'Abel', sans-serif;
 }
+
 #portfolio .services-card .service-detail li:hover{
   color: #18d26e;
 }
