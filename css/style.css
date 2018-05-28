@@ -1497,10 +1497,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /* custom media query */
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 4) {
+@media screen and (max-width: 600px){    
     #header #logo h1 {
       font-size: 20px;
     }
