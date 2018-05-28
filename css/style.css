@@ -1489,3 +1489,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ddd;
 }
+/* custom styles */
+
+.teamMembers p{
+  text-align: justify;
+  padding-bottom: 0;
+}
+
+/* custom media query */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) {
+    #header #logo h1 {
+      font-size: 20px;
+    }
+    #header #logo img {
+      max-height: 28px;
+    }
+}
